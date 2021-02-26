@@ -10,7 +10,7 @@ from stylegan2encoder.ffhq_dataset.landmarks_detector import LandmarksDetector
 import shutil
 import numpy as np
 
-import dnnlib
+from stylegan2encoder import dnnlib
 import stylegan2encoder.dnnlib.tflib as tflib
 from stylegan2encoder import pretrained_networks
 from stylegan2encoder import projector
